@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:ender_pearl",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "minecraft:ender_pearl",
+    "components": {
+      "minecraft:custom_name": "{\"text\":\"Named Ender Pearl\",\"italic\":false}",
+      "minecraft:custom_data": {
+        "endername.to_be_changed": true
+      }
+    }
+  }
+}
