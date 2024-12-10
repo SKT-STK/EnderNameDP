@@ -2,5 +2,3 @@ execute as @e[type=snowball, nbt={Item:{components:{"minecraft:custom_data":{end
 
 execute as @e[type=snowball, nbt={Item:{components:{"minecraft:custom_data":{endername.endername:true,endername.has_marker:true}}}}] at @s run tp @n[tag=endername.target] @s
 execute as @e[tag=endername.target] at @s unless entity @e[type=snowball, nbt={Item:{components:{"minecraft:custom_data":{endername.endername:true,endername.has_marker:true}}}},distance=..1] run function endername:kill
-
-execute as @a[nbt={Inventory:[{components:{"minecraft:custom_data":{endername.to_be_changed: true}}}]}] at @s run function endername:owner with entity @s

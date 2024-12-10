@@ -12,6 +12,7 @@
       "minecraft:custom_data": {
         "endername.to_be_changed": true
       }
-    }
+    },
+    "count": 1
   }
 }

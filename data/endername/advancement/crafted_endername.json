@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "crafted_endername": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "endername:endername"
+      }
+    }
+  },
+  "rewards": {
+    "function": "endername:crafted_schedule"
+  }
+}
