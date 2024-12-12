@@ -8,10 +8,11 @@
   "result": {
     "id": "minecraft:ender_pearl",
     "components": {
-      "minecraft:custom_name": "{\"text\":\"Named Ender Pearl\",\"italic\":false}",
+      "minecraft:item_name": "{\"text\":\"Named Ender Pearl\",\"italic\":false}",
       "minecraft:custom_data": {
         "endername.to_be_changed": true
-      }
+      },
+      "item_model": "endername:endername"
     },
     "count": 1
   }
