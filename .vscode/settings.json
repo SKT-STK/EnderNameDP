@@ -1,10 +1,15 @@
 {
   "cSpell.words": [
     "armorstand",
+    "autocrafter",
     "cooldown",
     "Datapack",
+    "doesnt",
     "enderman",
     "endername",
+    "enderpearl",
+    "forceload",
+    "overworld",
     "playsound",
     "setblock",
     "tellraw"
